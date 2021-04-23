@@ -1,0 +1,130 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+
+}
+
+p {
+  color: #8f8f8f;
+}
+
+td {
+  padding: 20px;
+}
+
+.h1-light {
+  font-weight: 200;
+  color: #8f8f8f;
+}
+
+.h1-bold {
+  font-weight: 600;
+}
+
+.first-block {
+  padding-top: 3%;
+  width: 75%;
+  margin: 0 auto;
+}
+
+.first-block-text {
+  padding: 20px 60px;
+}
+
+.supervisor-block {
+  width: 300px;
+  height: 200px;
+  text-align: left;
+  margin: 20px auto;
+  position: relative;
+  right: 340px;
+  top: 120px;
+}
+
+.team-block {
+  width: 300px;
+  height: 200px;
+  text-align: left;
+  margin: 20px auto;
+  position: relative;
+  bottom: 200px;
+}
+
+.karma-block {
+  width: 300px;
+  height: 200px;
+  text-align: left;
+  margin: 20px auto;
+  position: relative;
+  bottom: 190px;
+}
+
+.calculator-block {
+  width: 300px;
+  height: 200px;
+  text-align: left;
+  margin: 20px auto;
+  position: relative;
+  bottom: 540px;
+  left: 340px;
+}
+
+.block-header {
+  font-size: 1rem;
+  text-align: left;
+  padding: 20px 20px 0 20px;
+}
+
+.block-text {
+  font-size: 0.75rem;
+  color: #8f8f8f;
+  padding: 10px 20px;
+}
+
+.block-svg {
+  position: relative;
+  bottom: 120px;
+  z-index: -1;
+}
+
+.second-block {
+  display:inline-block;
+
+}
+
+@media (max-width:510px) {
+  .supervisor-block {
+    width: 300px;
+    height: 200px;
+    text-align: left;
+    margin: 20px auto;
+    position: static;
+  }
+
+  .team-block {
+    width: 300px;
+    height: 200px;
+    text-align: left;
+    margin: 20px auto;
+    position: static;
+  }
+
+  .karma-block {
+    width: 300px;
+    height: 200px;
+    text-align: left;
+    margin: 20px auto;
+    position: static;
+  }
+
+
+  .calculator-block {
+    width: 300px;
+    height: 200px;
+    text-align: left;
+    margin: 20px auto;
+    position: static;
+  }
+
+
+}
